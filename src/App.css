@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background:url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700393743.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 20px;
+  color: whitesmoke;
+}
+.userList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 50px;
+  padding: 50px;
+}
+h1{
+color:#0989a0;
+}
+.user{
+  width: 24%;
+  height: 29vw;
+  padding: 20px;
+  border:whitesmoke solid 2px;
+  border-radius: 10px;
+  text-align: left;
+  background-color: rgba(5, 138, 138, 0.2);
+}
+.user h3{
+  text-align: center;
+}
+#content{
+  display:flex;
+  height: 45px;
+  padding-top: 5px;
+}
+#content p{
+  margin-top: 22px;
+  padding-left: 15px;
+}
+
+
